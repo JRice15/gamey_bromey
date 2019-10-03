@@ -1,4 +1,4 @@
-# gamey_bromey
+# GAMEY BROMEY
 The strangest, most elusive Open Problem ever to spontaneously arise out of a third-grader
 
 ## What is it?
@@ -22,3 +22,6 @@ much data had been collected. One would be wrong.
 We know there is something to do with alternation. Patterns that arrise when changing one letter group 
 at a time consistently appear as 010101 or 0,2,1,2, etc. Even-odd-ness is important, we think.
 
+
+## Why the name?
+GAMEY as the point-value letters. BROMEY is just mashing GAMEY with the originators last name, Brode
