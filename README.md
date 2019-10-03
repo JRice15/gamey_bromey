@@ -8,7 +8,7 @@ alphanumeric or puntuation characters, in the third grade. It is perfectly inter
 answers do not follow an easily discernable pattern.
 
 ## How does it work?
-We know that the characters GAMEY make up are worth points, while the rest are not. Other than Y, which is 
+We know that the characters G, A, M, E, and Y are worth points, while the rest are not. Other than Y, which is 
 worth -1, they are all worth 1. However, when they are grouped, strange patterns appear. To simplify things,
 all characters GAME are denoted by an A, while the rest are denoted by a T (and Y by Y, of course).
 
