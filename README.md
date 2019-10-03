@@ -14,10 +14,10 @@ all characters GAME are denoted by an A, while the rest are denoted by a T (and 
 
 ## What do we know?
 We know leading T's are irrelevant. Thus the score can always be computed by starting from the first
-group of A's. This means that we can unambigously denote a set of numbers `{3, 4, 1, 8}`
-as meaning 3 A's, 4 T's, 1 A, and 8 T's, or  `AAATTTTATTTTTTTT`. In `knowns.ts` you will see over 10,000 of 
-such combinations, all with their verified answer. One would 
-think that it would be trivial to solve the problem if that much data had been collected. One would be wrong.
+group of A's. This means that we can unambigously denote the word "Tallahassee" (TATTATATTAA) by counting the
+A's and T's as groups and starting with the first A's, leaving ATTATATTAA. This can be unambigously represented as 
+the list `1_2_1_1_1_2_2` (which becomes especially helpful when dealing with hypothetical words nearing 50 characters in length). In `knowns.ts` you will see over 10,000 of such combinations, all with their verified 
+answer. One would think that it would be trivial to solve the problem if that much data had been collected. One would be wrong.
 
 We know there is something to do with alternation. Patterns that arrise when changing one letter group 
 at a time consistently appear as 010101 or 0,2,1,2, etc. Even-odd-ness is important, we think.
